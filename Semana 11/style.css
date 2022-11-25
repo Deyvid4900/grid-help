@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    
+    height:150px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 50px;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    background-color: #f7f7f7;
+    z-index: 0;
+    
+    
+}
+.lado1{
+    margin-right: 30px;
+    flex-grow: 2;
+}
+.lado1 > a{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lado2>a{
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 15px 30px; 
+    
+    border-radius: 10px;
+
+}
+
+.aside{
+    padding-top: 400px;
+    margin-top: -200px;
+    text-align: center;
+}
+.aside >p{
+    margin-top: 10px;
+    color: #787878;
+}
+.aside>input[type="text"]{
+    margin-top: 25px;
+    margin-right: 10px;
+    width: 600px;
+    height: 10px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.aside>input[type="submit"]{
+    width: 125px;
+    height: 50px;
+    
+
+    background-color: #ea1d2c;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.back{
+    background-color: #f7f7f7;
+    padding-bottom: 200px;
+}
+.aside2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1,.item2{
+    padding: 20px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    margin-left: -168px;
+    margin-right: -168px;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    color: white;
+    transition: all .2s cubic-bezier(0,0,.5,1);
+    
+    
+}
+.item1:hover{
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+}
+.item2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+}
+.item1{
+ background-image: url(imagens/Tofu-Burger.png);
+ background-size: 300px;
+ background-repeat: no-repeat;
+ background-position: right center;    
+ background-color: #ea1d2c;
+}
+
+.item2{
+    background-image: url(imagens/cart-right.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: top right; 
+    background-color: #b6d048 ;   
+   }
+h4{
+    padding: 10px 30px;
+    margin-top: 25%;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.334);
+    border-radius: 10px;
+    
+}
+.aside3{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+.item3,.item4,.item5{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border:  1px solid black;
+}
